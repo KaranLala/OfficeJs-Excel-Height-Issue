@@ -72,7 +72,7 @@ const App = () => {
           <div className="text-lg font-bold">Data by Merged Areas</div>
           <div>
             <span className="font-bold">Total: </span>
-            <span>{mergedAreas?.[0].height}</span>
+            <span>{mergedAreas?.[0]?.height}</span>
           </div>
         </div>
       </div>
